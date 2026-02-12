@@ -1,0 +1,343 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/kasa-obake",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "kasa-obake",
+    "name": "Kasa-obake",
+    "aliases": [
+      {
+        "name": "傘お化け",
+        "language": "Japanese",
+        "romanization": "kasa-obake",
+        "meaning": "umbrella ghost"
+      },
+      {
+        "name": "Karakasa-kozo",
+        "language": "Japanese",
+        "romanization": "karakasa-kozo",
+        "meaning": "umbrella priest boy"
+      },
+      {
+        "name": "Karakasa",
+        "language": "Japanese",
+        "meaning": "paper umbrella"
+      }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Japanese Yokai / Tsukumogami",
+    "tags": [
+      "yokai",
+      "tsukumogami",
+      "japanese-folklore",
+      "animated-object",
+      "harmless",
+      "playful",
+      "umbrella",
+      "tool-spirit"
+    ],
+    "status": "traditional_folklore",
+    "description": {
+      "summary": "An animated paper umbrella yokai, a type of tsukumogami (tool that gained sentience after 100 years). Characterized by a single eye, long tongue, and hopping on one leg (its handle), kasa-obake are friendly, comical yokai that surprise people with harmless pranks.",
+      "full": "Kasa-obake (傘お化け, 'umbrella ghost'), also known as karakasa-kozo, is a type of Japanese yokai classified as tsukumogami—objects that have gained sentience and spirit after being neglected or abandoned for 100 years. Specifically, kasa-obake are old paper umbrellas (karakasa) that have come to life. The typical appearance features a single large eye, a long tongue hanging out, and one or two legs (actually the umbrella's handle) on which it hops around. Unlike many yokai, kasa-obake are not threatening or malevolent; they are playful, comical creatures that delight in surprising unsuspecting people but cause no real harm. Their antics typically involve hopping around streets at night, startling passersby with their unusual appearance. Kasa-obake embody the traditional Japanese philosophy of mottainai (avoiding waste) and the Shinto belief that all objects, especially those used for many years, can develop spirits (kami). They serve as reminders to treat possessions with respect and gratitude. In modern times, kasa-obake have become one of the most recognizable and beloved yokai, frequently appearing in cute, friendly forms in anime, manga, and merchandise."
+    },
+    "etymology": {
+      "origin": "From Japanese 傘 (kasa, 'umbrella') and お化け (obake, 'ghost' or 'thing that changes'). Alternative name karakasa-kozo combines 唐傘 (karakasa, 'paper umbrella') and 小僧 (kozo, 'priest boy' or 'young monk')",
+      "meaning": "Umbrella ghost, umbrella spirit",
+      "first_use": "Edo period (1603-1868)"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Yokai",
+      "subtype": "Tsukumogami",
+      "variant": "Animated Tool/Object"
+    },
+    "related_phenomena": [
+      {
+        "id": "chochinobake",
+        "name": "Chochinobake",
+        "relationship": "similar",
+        "description": "Paper lantern tsukumogami with similar appearance and nature"
+      },
+      {
+        "id": "tsukumogami",
+        "name": "Tsukumogami",
+        "relationship": "parent_category",
+        "description": "Objects that gain sentience after 100 years"
+      },
+      {
+        "id": "bakezori",
+        "name": "Bakezori",
+        "relationship": "similar",
+        "description": "Animated sandal tsukumogami"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "base_form": {
+        "description": "Old paper umbrella (karakasa) brought to life",
+        "components": [
+          "Paper or oiled-paper umbrella canopy",
+          "Bamboo ribs and frame",
+          "Wooden handle (becomes the leg)"
+        ]
+      },
+      "animated_form": {
+        "description": "Umbrella with anthropomorphic features",
+        "features": [
+          {
+            "feature": "Single large eye",
+            "description": "One eye in the center of the umbrella canopy",
+            "frequency": "always"
+          },
+          {
+            "feature": "Long tongue",
+            "description": "Tongue hanging out from beneath the canopy",
+            "frequency": "common"
+          },
+          {
+            "feature": "One leg",
+            "description": "The handle serves as a single leg, wearing a geta (wooden sandal)",
+            "frequency": "always"
+          },
+          {
+            "feature": "Arms",
+            "description": "Some depictions show small arms",
+            "frequency": "occasional"
+          }
+        ]
+      },
+      "size": "Standard umbrella size (approximately 1 meter when open)",
+      "appearance": "Friendly and comical rather than frightening"
+    },
+    "tsukumogami_nature": {
+      "age_requirement": "100 years of neglect or abandonment",
+      "transformation_trigger": "Being discarded, forgotten, or abandoned after long service",
+      "type": "Tool spirit, animated object"
+    },
+    "abilities": [
+      {
+        "ability": "Locomotion",
+        "description": "Hops around on its single leg (handle)",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Sentience",
+        "description": "Aware, conscious, can perceive surroundings",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Surprising people",
+        "description": "Enjoys startling unsuspecting passersby",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Speech",
+        "description": "Some accounts suggest ability to speak",
+        "frequency": "rare",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "disposition": "friendly",
+      "temperament": [
+        "Playful",
+        "Mischievous (harmlessly)",
+        "Comical",
+        "Non-threatening"
+      ],
+      "notable_behaviors": [
+        "Hopping around streets at night",
+        "Surprising people with sudden appearance",
+        "Generally harmless pranks",
+        "Following people briefly before hopping away"
+      ],
+      "activity_period": "nocturnal",
+      "habitat": [
+        "Urban streets",
+        "Rainy areas",
+        "Near where it was discarded"
+      ],
+      "danger_level": "harmless"
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Traditional Japanese folklore, particularly Edo period urban culture",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": [
+        "Throughout Japan",
+        "Particularly associated with urban areas and street culture"
+      ]
+    },
+    "cultural_context": {
+      "period": "Edo period (1603-1868) through modern times",
+      "cultural_significance": "Embodies mottainai philosophy (anti-waste) and respect for objects; one of the most beloved yokai"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Part of tsukumogami tradition—the belief that tools and objects gain spirits after long use and subsequent abandonment",
+      "earliest_accounts": "Edo period folklore and illustrated yokai encyclopedias",
+      "folklore_connections": "Connected to Shinto animistic beliefs that all things have potential for spirit (kami)"
+    },
+    "cultural_philosophy": {
+      "mottainai": "Represents the concept of avoiding wastefulness and respecting the service of objects",
+      "gratitude": "Reminder to appreciate tools and objects that serve us",
+      "animism": "Reflects Shinto belief that all things, even inanimate objects, can house spirit"
+    },
+    "cultural_impact": [
+      {
+        "aspect": "Moral teaching",
+        "description": "Stories teach respect for possessions and consequences of wastefulness"
+      },
+      {
+        "aspect": "Popular culture icon",
+        "description": "Became one of the most recognizable and marketable yokai"
+      },
+      {
+        "aspect": "Cultural symbol",
+        "description": "Represents Japanese values of respect and gratitude for objects"
+      }
+    ],
+    "modern_era": "Kasa-obake have evolved into beloved, cute characters in modern Japanese media, merchandise, and popular culture, while maintaining connection to traditional values."
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Edo period yokai folklore",
+        "Tsukumogami tales",
+        "Illustrated yokai encyclopedias (Toriyama Sekien's works)"
+      ],
+      "stories": [
+        "Tales of umbrellas hopping through rainy streets",
+        "Stories teaching respect for tools",
+        "Accounts of harmless encounters"
+      ],
+      "beliefs": "Objects used for 100 years develop spirits; abandonment or disrespect can cause transformation"
+    },
+    "philosophy": {
+      "mottainai": {
+        "description": "Sense of regret over waste",
+        "application": "Kasa-obake remind people not to waste or discard useful items"
+      },
+      "object_gratitude": {
+        "description": "Traditional respect for tools and objects that serve humans",
+        "application": "Proper treatment prevents transformation into yokai"
+      },
+      "shinto_animism": {
+        "description": "Belief that all things can possess kami (spirit)",
+        "application": "Long-used objects deserve respect for their service"
+      }
+    },
+    "cultural_sensitivity": {
+      "note": "Kasa-obake represent genuine Japanese cultural values about waste, respect, and gratitude",
+      "respect_guidelines": "Understanding the underlying philosophy enriches appreciation of the folklore"
+    },
+    "popular_culture": {
+      "anime_manga": [
+        "Featured as friendly, cute characters in numerous series",
+        "Popular merchandise and character design",
+        "GeGeGe no Kitaro and other yokai series"
+      ],
+      "games": [
+        "Common friendly yokai in Japanese games",
+        "Pokemon and other game inspirations",
+        "Often portrayed as helpful or neutral characters"
+      ],
+      "other": [
+        "Extensive merchandise (plushies, charms, etc.)",
+        "Tourist items and cultural symbols",
+        "Modern art and design inspiration"
+      ]
+    }
+  },
+
+  "theories": {
+    "folkloric": [
+      {
+        "name": "100-year transformation",
+        "description": "Objects abandoned after 100 years of service gain life and spirit",
+        "basis": "Traditional tsukumogami belief"
+      },
+      {
+        "name": "Spirit inhabitation",
+        "description": "Discarded objects attract wandering spirits or develop their own",
+        "basis": "Shinto animistic tradition"
+      }
+    ],
+    "cultural": [
+      {
+        "name": "Anti-waste teaching",
+        "description": "Stories serve to discourage wastefulness and promote care for possessions",
+        "basis": "Mottainai philosophy and practical concerns"
+      },
+      {
+        "name": "Gratitude cultivation",
+        "description": "Folklore encourages appreciation for tools and objects that serve humans",
+        "basis": "Cultural values of respect and mindfulness"
+      },
+      {
+        "name": "Animistic worldview",
+        "description": "Reflects Shinto belief that all things have potential for spiritual presence",
+        "basis": "Traditional Japanese spiritual understanding"
+      }
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "foster-2015",
+      "type": "book",
+      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
+      "authors": ["Michael Dylan Foster"],
+      "publication": "University of California Press",
+      "date": "2015",
+      "isbn": "978-0520271029"
+    },
+    {
+      "id": "sekien-gazu",
+      "type": "book",
+      "title": "Gazu Hyakki Yagyō (The Illustrated Night Parade of a Hundred Demons)",
+      "authors": ["Toriyama Sekien"],
+      "publication": "Original 1776",
+      "note": "Classic Edo period yokai encyclopedia"
+    },
+    {
+      "id": "yokai-database",
+      "type": "website",
+      "title": "Yokai.com Database - Kasa-obake",
+      "url": "https://yokai.com/karakasa/",
+      "accessed": "2026-01-14"
+    }
+  ]
+}
