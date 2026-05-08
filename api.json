@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/kasa-obake",
     "maintainers": [
       {
@@ -16,111 +16,234 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "kasa-obake",
-    "name": "Kasa-obake (傘お化け)",
-    "aliases": [],
-    "category": "|_GENERAL_CATEGORY_OF_ANIMATED_OBJECTS_|",
-    "subcategory": "Tsukumogami",
+    "name": "Kasa-obake",
+    "aliases": [
+      { "name": "傘お化け", "language": "Japanese", "meaning": "umbrella ghost / umbrella monster" },
+      { "name": "Karakasa-obake", "language": "Japanese", "meaning": "paper-umbrella ghost" },
+      { "name": "Karakasa-kozō", "language": "Japanese", "meaning": "umbrella boy / paper-umbrella lad" },
+      { "name": "Hone-karakasa", "language": "Japanese", "meaning": "skeleton/bone umbrella (variant)" }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Tsukumogami (animated household object)",
     "tags": [
+      "yokai",
+      "tsukumogami",
+      "japan",
       "folklore",
-      "mythology"
+      "edo-period",
+      "umbrella",
+      "harmless",
+      "trickster"
     ],
     "status": "documented",
     "description": {
-      "summary": "Kasa-obake (傘お化け, \\\"umbrella ghost\\\"), also known as karakasa-kozo, is one of the most recognizable and beloved yokai in Japanese folklore.",
-      "full": "Kasa-obake (傘お化け, \\\"umbrella ghost\\\"), also known as karakasa-kozo, is one of the most recognizable and beloved yokai in Japanese folklore. A type of **tsukumogami**—objects that gain sentience after 100 years of service—kasa-obake are old paper umbrellas that have come to life after being neglected or abandoned. These charming yokai are instantly recognizable: a single large eye in the center of the umbrella canopy, a long tongue hanging out playfully, and hopping around on one leg (the umbrella's handle, often wearing a traditional wooden sandal). Unlike many yokai, kasa-obake are **completely harmless**—they are playful, comical creatures who enjoy surprising people but mean no actual harm. Kasa-obake embody important Japanese cultural values: **mottainai** (the regret of wastefulness), gratitude for objects that serve us, and the Shinto belief that all things, even everyday tools, can develop spiritual presence."
+      "summary": "A whimsical Japanese yōkai depicted as an old paper umbrella that has come to life, characteristically bearing a single eye, a long lolling tongue, and a single sandaled leg on which it hops about.",
+      "full": "Kasa-obake (傘お化け, 'umbrella ghost'), also known as karakasa-obake or karakasa-kozō, is one of the most visually iconic creatures in Japanese folklore. It is conventionally classed among the tsukumogami — household objects that, according to medieval and Edo-period belief, acquire a spirit after long use (often glossed as 100 years). Its standard pictorial form, fixed during the Edo period, shows a worn paper-and-bamboo umbrella (karakasa) with a single large eye in the canopy, a long red tongue protruding from a wide mouth, two thin arms in some variants, and a single human leg wearing a wooden geta sandal, on which the umbrella hops. Despite its monstrous appearance, the kasa-obake is regarded as essentially harmless: in most accounts it surprises lone travelers at night by jumping out, licking them, or rolling underfoot, but does no real injury. The figure does not appear in the older oral folk tradition; it is best understood as a creature of Edo-period popular art, kibyōshi books, board games (sugoroku) and the parodic 'hyakki yagyō' (night parade of one hundred demons) imagery, which then carried over into modern manga, anime, and obake-themed entertainment."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese 傘 (kasa, 'umbrella') + お化け (obake, 'transformed thing / ghost'). The variant karakasa derives from 唐傘 (kara-kasa, 'Tang/Chinese-style umbrella'), the imported oiled-paper umbrella common in Edo Japan; -kozō means 'young monk' or 'lad' and is a humorous diminutive frequently attached to small yōkai.",
+      "meaning": "'Umbrella ghost' or 'haunted umbrella'.",
+      "first_use": "Pictorial depictions are found in late Muromachi and Edo period scrolls; the modern one-eyed, one-legged form is consolidated by the late 18th century in works such as Toriyama Sekien's Gazu Hyakki Yagyō (1776)."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_GENERAL_CATEGORY_OF_ANIMATED_OBJECTS_|",
-      "type": "Tsukumogami",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "ENTITY_SPIRIT",
+      "type": "Yōkai",
+      "subtype": "Tsukumogami (animated object)",
+      "variant": "Umbrella-form"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "tsukumogami", "name": "Tsukumogami (general)", "relationship": "superset", "description": "Wider class of household objects that gain a spirit after long use" },
+      { "id": "chochin-obake", "name": "Chōchin-obake", "relationship": "similar", "description": "Animated paper-lantern yōkai of the same Edo-period iconographic tradition" },
+      { "id": "boroboroton", "name": "Boroboroton", "relationship": "similar", "description": "Animated futon/bedding tsukumogami" },
+      { "id": "ittan-momen", "name": "Ittan-momen", "relationship": "similar", "description": "Animated cloth/yardage yōkai of Kagoshima folklore" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["aged paper beige", "dark wood handle", "red mouth and tongue"],
+      "features": [
+        { "feature": "Single large eye", "description": "A prominent eye occupies the center of the open umbrella canopy", "frequency": "always" },
+        { "feature": "Long protruding tongue", "description": "A long red tongue lolls from a wide grinning mouth on the canopy", "frequency": "common" },
+        { "feature": "Single leg with geta sandal", "description": "Hops on one human leg, the umbrella's handle, typically wearing a wooden geta", "frequency": "always" },
+        { "feature": "Two thin arms (variant)", "description": "Some illustrations add a pair of skinny arms emerging from the umbrella ribs", "frequency": "occasional" },
+        { "feature": "Aged or torn paper", "description": "The umbrella is worn, frayed, or partly broken — emphasizing its age", "frequency": "common" }
+      ],
+      "morphology": "An animate karakasa (oiled-paper umbrella) anatomy: one eye, one or no arms, one leg. It is essentially the umbrella itself granted face and limb."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Hopping locomotion", "description": "Moves by hopping on its single sandaled leg", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Startle / surprise", "description": "Suddenly appears before lone travelers at night to frighten them", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Licking with the long tongue", "description": "Some accounts have it lick a victim's face or neck — startling but harmless", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": ["old storerooms (kura)", "dusty closets", "abandoned umbrellas", "back streets at night"],
+      "diet": "None recorded; tsukumogami do not require food",
+      "patterns": [
+        "Animates from a long-neglected paper umbrella",
+        "Joins the hyakki yagyō (night parade of one hundred demons) imagery",
+        "Tends to startle rather than harm"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Kasa-obake is a creature of Japanese popular folklore and art; it is not localized to a particular region but is associated broadly with Edo-period urban culture and tsukumogami traditions.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": ["Edo (modern Tokyo)", "Kyoto", "Osaka", "Japan generally"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1700s",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Edo-period yōkai illustration tradition; iconography consolidated by Toriyama Sekien (1776)"
+      },
+      "peak_activity_periods": [
+        { "period": "Edo period (1603–1868)", "description": "Heyday of yōkai prints, kibyōshi picture books, and sugoroku boardgames featuring kasa-obake" },
+        { "period": "Postwar (1950s–present)", "description": "Iconic mascot of Japanese 'obake' entertainment in manga, anime, theme parks, and merchandise" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Rooted in the Japanese tsukumogami tradition that long-used objects acquire a spirit; influenced by Shinto animism and Buddhist notions about attachment in mundane things.",
+      "earliest_accounts": "Visual depictions appear in late-Muromachi and Edo-period emaki such as the Bakemono Zukushi scrolls, and most influentially in Toriyama Sekien's Gazu Hyakki Yagyō (1776).",
+      "folklore_connections": "Member of the broader hyakki yagyō imagery and a sibling figure to chōchin-obake (lantern), boroboroton (futon), and other tsukumogami."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1300s", "event": "Tsukumogami concept appears in medieval Japanese texts, including the Tsukumogami emaki", "significance": "Religious-cultural background for animated-object yōkai", "source": "Tsukumogami emaki (Muromachi period)" },
+      { "date": "1700s", "event": "Kasa-obake / karakasa-obake appear repeatedly in Edo-period bakemono picture books and yōkai prints", "significance": "Standardization of the one-eyed, one-legged umbrella iconography", "source": "Bakemono Zukushi scrolls" },
+      { "date": "1776", "event": "Toriyama Sekien publishes Gazu Hyakki Yagyō, an influential illustrated yōkai compendium that includes umbrella-type tsukumogami", "significance": "Anchors the visual canon for later Japanese yōkai art", "source": "Toriyama Sekien, Gazu Hyakki Yagyō" },
+      { "date": "1968", "event": "Shigeru Mizuki popularizes kasa-obake in the manga/anime GeGeGe no Kitarō", "significance": "Reintroduces the figure to mass culture", "source": "Shigeru Mizuki, GeGeGe no Kitarō" }
+    ],
+    "modern_era": "Kasa-obake remains a stock character of Japanese popular culture, appearing in children's picture books, museum exhibits on yōkai, video games (Nioh, Yo-kai Watch, Pokémon's umbrella-line designs), and Halloween-style decoration in Japan."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "n/a", "latest": "n/a" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "kasa-obake-evidence-sekien-1776",
+        "type": "illustrated book",
+        "name": "Gazu Hyakki Yagyō (1776)",
+        "date": "1776",
+        "description": "Illustrated yōkai compendium by Toriyama Sekien including umbrella-type tsukumogami; foundational visual source for the modern kasa-obake image.",
+        "status": "verified",
+        "analysis": "Considered by Japanese folklorists (e.g. Komatsu Kazuhiko) as a key text for yōkai iconography rather than oral folklore.",
+        "source": "Toriyama Sekien, Gazu Hyakki Yagyō (1776)"
+      },
+      {
+        "id": "kasa-obake-evidence-bakemono-zukushi",
+        "type": "illustrated scroll",
+        "name": "Bakemono Zukushi emaki",
+        "description": "A class of Edo-period yōkai scrolls in which umbrella-shaped tsukumogami appear among parades of monsters.",
+        "status": "verified",
+        "source": "Edo-period emaki, various holdings"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Tsukumogami doctrine",
+        "description": "Long-used or neglected objects acquire a spirit after a long span (popularly 100 years), animating into yōkai such as the kasa-obake. Linked to Shinto-Buddhist views that attachment and use give objects a kind of soul.",
+        "proponents": ["Medieval and Edo-period Japanese folk religion"],
+        "evidence_cited": ["Tsukumogami emaki (Muromachi)", "Edo-period yōkai picture books"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Iconographic invention, not folklore creature",
+        "description": "Folklorists note that kasa-obake does not appear in classical oral folk tales but is essentially an Edo-period artistic invention used to populate hyakki yagyō imagery, kibyōshi, and games.",
+        "proponents": ["Komatsu Kazuhiko", "Adam Kabat"],
+        "evidence_cited": ["Absence of kasa-obake in pre-Edo oral collections", "Strong presence in printed and pictorial sources of the 17th–19th centuries"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Tsukumogami belief tradition",
+        "Hyakki yagyō (night parade of one hundred demons) imagery"
+      ],
+      "stories": [
+        "Edo-period sugoroku boardgames featuring rows of yōkai including karakasa",
+        "Kibyōshi picture-book vignettes of household objects coming to life"
+      ],
+      "beliefs": "Objects deserve respect and care; neglect can give them a spirit and a grievance — a moral often packaged in a comical, harmless figure."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Toriyama Sekien — Gazu Hyakki Yagyō (1776)",
+        "Shigeru Mizuki — GeGeGe no Kitarō (1968 onward)",
+        "Matthew Meyer — The Night Parade of One Hundred Demons (2012)"
+      ],
+      "film_tv": [
+        "GeGeGe no Kitarō (anime, multiple series 1968–present)",
+        "Yo-kai Watch (anime, 2014–)"
+      ],
+      "games": [
+        "Yo-kai Watch series",
+        "Nioh series",
+        "Pokémon (umbrella-themed Pokémon are inspired by kasa-obake imagery)"
+      ],
+      "other": [
+        "Mascot for yōkai-themed exhibitions and cafes in Japan",
+        "Standard motif of obake-themed merchandise and Halloween decoration in Japan"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Komatsu Kazuhiko", "affiliation": "International Research Center for Japanese Studies (Nichibunken)", "contribution": "Major academic studies of yōkai culture and tsukumogami", "period": "1970s–present" },
+      { "name": "Shigeru Mizuki", "affiliation": "Manga artist / yōkai cataloguer", "contribution": "Popularized the modern visual canon of yōkai including kasa-obake through GeGeGe no Kitarō and yōkai encyclopedias", "period": "1960s–2015" },
+      { "name": "Matthew Meyer", "affiliation": "Independent folklorist (yokai.com)", "contribution": "English-language documentation of yōkai including karakasa-obake", "period": "2010s–present" }
+    ],
+    "organizations": [
+      { "name": "International Research Center for Japanese Studies (Nichibunken)", "url": "https://www.nichibun.ac.jp/en/", "focus": "Academic study of Japanese folklore including yōkai" },
+      { "name": "yokai.com", "url": "https://yokai.com", "focus": "English-language reference site on Japanese yōkai" }
+    ],
+    "ongoing_studies": "Active scholarship in folklore studies continues to examine the Edo-period invention and modern reception of tsukumogami such as the kasa-obake."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-kasa-obake", "type": "website", "title": "Kasa-obake", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kasa-obake", "accessed": "2026-05-07" },
+    { "id": "yokai-com-karakasa", "type": "website", "title": "Karakasa kozō", "authors": ["Matthew Meyer"], "publication": "yokai.com", "url": "https://yokai.com/karakasakozou/", "accessed": "2026-05-07" },
+    { "id": "sekien-1776", "type": "book", "title": "Gazu Hyakki Yagyō (画図百鬼夜行)", "authors": ["Toriyama Sekien"], "publication": "Edo, Japan", "date": "1776" },
+    { "id": "meyer-2012", "type": "book", "title": "The Night Parade of One Hundred Demons: A Field Guide to Japanese Yokai", "authors": ["Matthew Meyer"], "date": "2012", "isbn": "978-0985218409" },
+    { "id": "foster-2015", "type": "book", "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore", "authors": ["Michael Dylan Foster"], "publication": "University of California Press", "date": "2015", "isbn": "978-0520271029" }
+  ]
 }
